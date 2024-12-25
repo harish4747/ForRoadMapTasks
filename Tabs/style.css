@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.buttons {
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    color: gray;
+    font-size: 15px;
+
+}
+
+#firstbutton {
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+#parentdiv {
+    background-color: white;
+    height: 400px;
+    width: 580px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    font-family: cursive;
+}
+
+.content {
+    height: 200px;
+    background-color: black;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 40px;
+}

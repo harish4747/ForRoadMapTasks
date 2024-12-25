@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div id="parentdiv">
+            <nav>
+                <button class="buttons" id="firstbutton" onclick="tabClick('firsttab','firstbutton')">First tab</button>
+                <button class="buttons" id="secondbutton" onclick="tabClick('secondtab','secondbutton')">Second tab</button>
+                <button class="buttons" id="thirdbutton" onclick="tabClick('thirdtab','thirdbutton')">Third tab</button>
+                <button class="buttons" id="fourthbutton" onclick="tabClick('fourthtab','fourthbutton')">Fourth tab</button>
+            </nav>
+            <div>
+                <p>Clicking each tab should hide the content of the other tab and show the <br>content of clicked tab.By
+                    default, enable the first tab.</p>
+                <div class="content">
+                    <center>
+                        <div id="firsttab" class="actual" style="color: white; padding-top: 90px;">First Tab content to
+                            be displayed here.</div>
+                        <div id="secondtab" class="actual" style="color: white; padding-top: 90px;">Second Tab content
+                            to be displayed here.</div>
+                        <div id="thirdtab" class="actual" style="color: white; padding-top: 90px;">Third Tab content to
+                            be displayed here.</div>
+                        <div id="fourthtab" class="actual" style="color: white; padding-top: 90px;">Fourth Tab content
+                            to be displayed here.</div>
+                    </center>
+                </div>
+                <p>Add some dummy content or just add a simple text showing the tabs</p>
+            </div>
+    </center>
+    <script src="/script.js"></script>
+</body>
+
+</html>
