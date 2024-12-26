@@ -1,4 +1,5 @@
 let details = [
+    { "18 Nov, 2024" : "AI Roadmaps Improved, Schedule Learning Time"},
     { "16 Oct, 2024": "DevOps Project Ideas, Team Dashboard, Redis Content" },
     { "04 Oct, 2024": "AI Engineer Roadmap, Leaderboards, Editor AI, and more" },
     { "23 Sep, 2024": "Redis Roadmap, Dashboard Changes, Bookmarks" },
