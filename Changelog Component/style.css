@@ -1,0 +1,58 @@
+* {
+    font-family: cursive;
+}
+
+h4 {
+    color: gray;
+}
+
+button {
+    color: white;
+    padding-top: 5px;
+    background-color: black;
+    border: 1px solid black;
+
+}
+
+.line {
+    height: 80px;
+    width: 2px;
+    background: black;
+}
+
+.dot {
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    background: black;
+}
+
+#parentdiv {
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#footer {
+    margin-top: 60px;
+    background-color: black;
+    border-radius: 10px;
+    height: 35px;
+    width: 250px;
+}
+
+.forgrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.date {
+    margin-top: 73px;
+    margin-left: 150px;
+    color: gray;
+}
+.content  {
+    margin-top: 73px;
+    margin-right: 20px;
+}
